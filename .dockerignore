@@ -1,8 +1,7 @@
 frontend/
 .git/
 .gitignore
-Dockerfile
-docker-compose.yml
 node_modules
-.vscode
 .env
+Dockerfile
+.vscode
