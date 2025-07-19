@@ -1,1 +1,8 @@
--r backend/requirements.txt
+fastapi
+uvicorn
+pydantic
+motor
+passlib[bcrypt]
+python-jose[cryptography]
+python-dotenv
+
