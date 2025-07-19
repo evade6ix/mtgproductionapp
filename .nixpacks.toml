@@ -1,5 +1,5 @@
 [phases.setup]
-nixpkgs = ["nodejs_18", "python310"]
+nixpkgs = ["python311", "nodejs_18"]
 
 [phases.install]
 cmds = [
@@ -13,4 +13,4 @@ cmds = [
 ]
 
 [phases.start]
-cmd = "uvicorn backend.app.main:app --host 0.0.0.0 --port 8000"
+cmd = "cd backend && uvicorn app.main:app --host=0.0.0.0 --port=8000"
